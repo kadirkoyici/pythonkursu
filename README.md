@@ -1,0 +1,3 @@
+pythonkursu
+===========
+python çalışmalarım karalamalar
