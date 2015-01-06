@@ -8,8 +8,8 @@ dizilen=len(liste3)
 print " Liste elemanlari : ", liste3
 print " Liste Uzunlugu : ",dizilen
 print " Listenin son elemani  :", liste3[dizilen-1]
-for i in range(0,dizilen):
-    print i ," . eleman : ",liste3[i]
+for i,v in enumerate(liste3):
+    print i ," . eleman : ",v
 
 print liste3[1:3] , liste3[:3],liste3[1:], liste3[1::2]
 
