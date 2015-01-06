@@ -8,15 +8,8 @@ dizilen=len(liste3)
 print " Liste elemanlari : ", liste3
 print " Liste Uzunlugu : ",dizilen
 print " Listenin son elemani  :", liste3[dizilen-1]
-
-'''
-    enumerate:
-        listedeki degerleri numaralandırmaya yarayan fonksiyon
-    enumerate(list)
-    url : https://docs.python.org/2/library/functions.html#enumerate
-'''
-for index,value in enumerate(liste3):
-    print index ," . eleman : ",value
+for i in range(0,dizilen):
+    print i ," . eleman : ",liste3[i]
 
 print liste3[1:3] , liste3[:3],liste3[1:], liste3[1::2]
 

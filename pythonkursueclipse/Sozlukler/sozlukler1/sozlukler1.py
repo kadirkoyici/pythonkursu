@@ -28,7 +28,8 @@ print "\nitems() & iteritems() fonksiyonları"
 siparis_rehberi={"Corbaci": "444 44 44" ,
                  "Pizza"  : "555 55 55" ,
                  "Kebapci": "666 66 66"}
-print "items     : ", siparis_rehberi.items(), type(siparis_rehberi.items())
+print "items     : ", siparis_rehberi.items()
+print "items edikten sonra listeye donusturdu  : ",type(siparis_rehberi.items())
 print "iteritems : ", siparis_rehberi.iteritems(), type(siparis_rehberi.iteritems())
 
 print "\n -----------------------------"

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 print "Liste Tipinde kullannilabilecek Fonksiyonlar : "
-print "appen , remove , del , pop , reverse , sort , index , count"
+print "append , remove , del , pop , reverse , sort , index , count"
 
 dizim    =  [1,"ab",2,"cd",3,"ef",4,"gh",5]
 
@@ -28,7 +28,7 @@ takimlar = ['Galatasaray','Fenerbahçe','Beşiktaş']
 print takimlar.index('Galatasaray')
 
 takimlar = ['Galatasaray','Fenerbahçe','Beşiktaş']
-print takimlar.count('Bursaspor')
+print "Bursaspor kaç tane geçiyor : ",takimlar.count('Bursaspor')
 
 
 '''
